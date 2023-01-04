@@ -205,7 +205,7 @@ p {
 
 /* Hero Section */
 #hero {
-	background-image: url("https://cdn-images-1.medium.com/max/1200/1*SzN6u2U98S4RyhWo_WyaHQ.png");
+	background-image: url("https://www.shutterstock.com/image-photo/programmer-girl-works-computer-260nw-1610721214.jpg");
 	background-size: cover;
 	background-position: top center;
 	position: relative;
@@ -328,6 +328,10 @@ p {
 #services .service-item p {
 	color: white;
 	text-align: left;
+}
+
+.Freelancing {
+	width: 120px;
 }
 /* End Experience Section */
 
