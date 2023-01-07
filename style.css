@@ -47,7 +47,7 @@ p {
 	text-align: center;
 }
 .section-title span {
-	color: crimson;
+	color: #3b87e3;
 }
 
 .cta {
@@ -55,7 +55,7 @@ p {
 	padding: 10px 30px;
 	color: white;
 	background-color: transparent;
-	border: 2px solid crimson;
+	border: 2px solid #3b87e3;
 	font-size: 2rem;
 	text-transform: uppercase;
 	letter-spacing: 0.1rem;
@@ -65,7 +65,7 @@ p {
 }
 .cta:hover {
 	color: white;
-	background-color: crimson;
+	background-color: #3b87e3;
 }
 .brand h1 {
 	font-size: 3rem;
@@ -73,7 +73,7 @@ p {
 	color: white;
 }
 .brand h1 span {
-	color: crimson;
+	color: #3b87e3;
 }
 
 /* Header section */
@@ -145,7 +145,7 @@ p {
 	letter-spacing: initial;
 }
 #header .nav-list ul li:hover a {
-	color: crimson;
+	color: #3b87e3;
 }
 #header .hamburger {
 	height: 60px;
@@ -201,6 +201,7 @@ p {
 #header .hamburger.active .bar::after {
 	top: 0;
 }
+
 /* End Header section */
 
 /* Hero Section */
@@ -253,7 +254,7 @@ p {
 	left: 0;
 	height: 100%;
 	width: 0;
-	background-color: crimson;
+	background-color: #3b87e3;
 	animation: text_reveal_box 1s ease;
 	animation-delay: 0.5s;
 }
@@ -265,6 +266,10 @@ p {
 }
 #hero h1:nth-child(3) span {
 	animation-delay: 2.5s;
+}
+
+.name {
+	color :#3b87e3
 }
 
 /* End Hero Section */
@@ -310,7 +315,7 @@ p {
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	background-image: linear-gradient(60deg, #466790 0%, #427dbd 100%);
 	opacity: 0.9;
 	z-index: -1;
 }
@@ -321,12 +326,13 @@ p {
 }
 #services .service-item h2 {
 	font-size: 2rem;
-	color: white;
+	color: black;
 	margin-bottom: 10px;
 	text-transform: uppercase;
 }
 #services .service-item p {
-	color: white;
+	font-weight: bold;
+	color: black;
 	text-align: left;
 }
 
@@ -373,8 +379,9 @@ p {
 	align-items: flex-start;
 	justify-content: center;
 	flex-direction: column;
-	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-	color: white;
+	background-image: linear-gradient(60deg,#9cb8da 0%, #427dbd
+	100%);
+	color: black;
 }
 #projects .project-info h1 {
 	font-size: 4rem;
@@ -385,11 +392,12 @@ p {
 	font-size: 1.8rem;
 	font-weight: 500;
 	margin-top: 10px;
-	color: red;
+	color:rgb(137, 24, 66);
 }
 
 #projects .project-info p {
-	color: white;
+	font-weight: bold;
+	color: black;
 }
 #projects .project-img {
 	flex-basis: 50%;
@@ -404,7 +412,7 @@ p {
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	background-image: linear-gradient(60deg,#29323c 0%, #485563);
 	opacity: 0.7;
 }
 #projects .project-img img {
@@ -458,7 +466,7 @@ p {
 	top: 19px;
 	height: 98%;
 	width: 98%;
-	border: 7px solid crimson;
+	border: 7px solid #427dbd;
 	z-index: -1;
 }
 /* End About Section */
@@ -658,7 +666,7 @@ footer #wave4 {
 }
 @keyframes text_reveal_name {
 	100% {
-		color: crimson;
+		color: #427dbd;
 		font-weight: 500;
 	}
 }
@@ -724,7 +732,7 @@ footer #wave4 {
 		top: 34px;
 		height: 98%;
 		width: 98%;
-		border: 10px solid crimson;
+		border: 10px solid #427dbd;
 	}
 	#about .col-right {
 		text-align: left;
@@ -742,6 +750,7 @@ footer #wave4 {
 		align-items: center;
 		justify-content: center;
 		min-width: 20vh;
+		
 	}
 	#contact .contact-items {
 		width: 100%;
@@ -749,16 +758,26 @@ footer #wave4 {
 		flex-direction: row;
 		justify-content: space-evenly;
 		margin: 0;
+		
 	}
 	#contact .contact-item {
 		width: 30%;
 		margin: 0;
 		flex-direction: row;
+		/* background-color: #a0afb3; */
 	}
 	#contact .contact-item .icon {
 		height: 100px;
 		width: 100px;
 	}
+	#contact .icon {
+		width: 70px;
+		margin: 0 auto;
+		margin-bottom: 10px;
+		height: 30px;
+		width: 30px;
+	}
+	
 	#contact .contact-item .icon img {
 		object-fit: contain;
 	}
@@ -767,6 +786,7 @@ footer #wave4 {
 		text-align: left;
 		padding-left: 20px;
 	}
+
 	/* End contact  */
 }
 /* End Media Query For Tablet */
@@ -801,3 +821,4 @@ footer #wave4 {
 	}
 }
 /* End  Media Query For Desktop */
+
